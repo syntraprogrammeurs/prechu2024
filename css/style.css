@@ -1,0 +1,93 @@
+/*GENERAL CSS*/
+*{
+    box-sizing:border-box;
+}
+body{
+    font-size:14.35px;
+    font-family:segoe;
+
+}
+/*COLORS*/
+.ctekstmain{
+    color:#909090;/*tekstkleur*/
+}
+.cbgmain{
+    background:#909090;/*tekstkleur*/
+}
+.ctekstblue{
+    color:#5094f2;
+}
+.cbgblue{
+    background:#5094f2;
+}
+/* FONTS */
+@font-face {
+    font-family: myriad;
+    src: url('../webfonts/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family: segoe;
+    src: url('../webfonts/SegoeWPN.woff');
+}
+/* POSITIONING CSS*/
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.justify-content-evenly{
+    justify-content:space-evenly;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.text-center{
+    text-align:center;
+}
+
+/*SECTION LATEST NEWS*/
+h2{
+    font-size:42.35px;
+    font-family:myriad;
+}
+h3{
+    font-size:20.35px;
+}
+.latestnewsp{
+    width:248px;
+}
+.latestnewsmargin{
+    margin:30px 0px;
+}
+#pencil,#basket,#pc{
+    border-radius:50%;
+}
+
+#basket{
+    background:#ebbb11;
+}
+#pc{
+    background:#d94748;
+}
