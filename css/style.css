@@ -7,6 +7,18 @@ body{
     font-family:segoe;
 
 }
+#wrapper{
+    width:1250px;
+    margin:0 auto;
+}
+/* MARGINS EN PADDINGS*/
+.w-40{
+    width:40%;
+}
+.w-60{
+    width:60%;
+}
+
 /*COLORS*/
 .ctekstmain{
     color:#909090;/*tekstkleur*/
@@ -66,6 +78,21 @@ body{
 .text-center{
     text-align:center;
 }
+/* NAVIGATION MENU */
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#909090;
+    padding:10px;
+}
+
+nav ul li a:hover{
+    color:#5094f2;
+    border-bottom:3px solid #5094f2;
+}
+
 
 /*SECTION LATEST NEWS*/
 h2{
@@ -90,4 +117,12 @@ h3{
 }
 #pc{
     background:#d94748;
+}
+/* FOOTER */
+footer{
+    border-top:1px solid #909090;
+}
+footer p{
+    padding:35px 0px;
+    margin:0px;
 }
