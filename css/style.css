@@ -118,6 +118,17 @@ h3{
 #pc{
     background:#d94748;
 }
+
+/* SECTION SPORT*/
+ #sportdivblue{
+     border:20px solid blue;
+ }
+ #sportdivorange{
+     border:20px solid orange;
+ }
+ #sportdivred{
+     border:20px solid red;
+ }
 /* FOOTER */
 footer{
     border-top:1px solid #909090;
