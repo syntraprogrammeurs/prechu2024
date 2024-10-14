@@ -275,7 +275,34 @@ nav ul li a:hover{
     border-bottom:3px solid #5094f2;
 }
 
-
+/* SECTION HERO*/
+#hero {
+    background: url('../img/background_slider.png') no-repeat;
+    padding-top: 165px;
+    padding-bottom: 218px;
+}
+#hero div{
+    width:475px;
+    padding-right:15px;
+}
+h1{
+    font-size:42.35px;
+    color:#fff;
+    font-family:segoe;
+}
+h1 span{
+    font-size:26px;
+}
+#btn{
+    background:#5094f2;
+    color:#fff;
+    border:2px solid transparent;
+    border-radius:5px;
+    font-weight:300;
+    font-size:1.3rem;
+    cursor:pointer;
+    padding:12px 16px;
+}
 /*SECTION LATEST NEWS*/
 h2{
     font-size:42.35px;
@@ -311,6 +338,22 @@ h3{
  #sportdivred{
      border:20px solid red;
  }
+ /* ABSOLUTE */
+#absolute{
+    position:relative;
+}
+#absolute img{
+    position:relative;
+    z-index:1;
+}
+#absolute p{
+    position:absolute;
+    top:10px;
+    left:50px;
+    color:#fff;
+    z-index:5;
+    font-size:50px;
+}
 /* FOOTER */
 footer{
     border-top:1px solid #909090;
