@@ -401,3 +401,12 @@ footer p{
     -webkit-mask-repeat: no-repeat;
 
 }
+.masked-image {
+    -webkit-mask-image: url('../img/maskvid.png'); /* Path to your mask image */
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    -webkit-mask-size: 70%;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+}
