@@ -2,11 +2,20 @@
 *{
     box-sizing:border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-size:14.35px;
     font-family:segoe;
     margin:0 auto;
 
+}
+.mybutton{
+    border:2px solid grey;
+    background:yellow;
+    padding:12px 16px;
+    border-radius:20px;
 }
 #wrapper{
     width:1250px;
