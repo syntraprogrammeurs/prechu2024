@@ -5,6 +5,7 @@
 body{
     font-size:14.35px;
     font-family:segoe;
+    margin:0 auto;
 
 }
 #wrapper{
@@ -260,19 +261,36 @@ body{
 .text-center{
     text-align:center;
 }
-/* NAVIGATION MENU */
+
+nav ul{
+    margin:0 auto;
+}
 nav ul li{
     list-style-type: none;
+    position:relative;
+}
+ul  li  ul  li{
+    background:green;
 }
 nav ul li a{
     text-decoration:none;
+
     color:#909090;
     padding:10px;
-}
 
-nav ul li a:hover{
-    color:#5094f2;
-    border-bottom:3px solid #5094f2;
+}
+.submenu{
+    display:none;
+    position:absolute;
+    top:20px;
+    left:-25px;
+    width:200px;
+}
+.submenu a:hover{
+    color:#fff;
+}
+nav ul li:hover .submenu{
+    display:block;
 }
 
 /* SECTION HERO*/
@@ -362,3 +380,4 @@ footer p{
     padding:35px 0px;
     margin:0px;
 }
+
