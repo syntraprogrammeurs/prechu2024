@@ -390,3 +390,14 @@ footer p{
     margin:0px;
 }
 
+.masked-video {
+    -webkit-mask-image: url('../img/maskvid2.png'); /* Hier 'mask.png' vervangen door het pad naar je eigen maskerbeeld. */
+    /*mask: url('mask.svg#mask'); /* Voor niet-WebKit browsers. */
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    -webkit-mask-size: 70%;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+
+}
